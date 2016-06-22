@@ -1,0 +1,5 @@
+D:\websites\dnndev.me\bin\JSLicense.dll
+D:\websites\dnndev.me\bin\JSLicense.pdb
+D:\websites\dnndev.me\DesktopModules\JSLicense\obj\Release\JSLicense.csprojResolveAssemblyReference.cache
+D:\websites\dnndev.me\DesktopModules\JSLicense\obj\Release\JSLicense.dll
+D:\websites\dnndev.me\DesktopModules\JSLicense\obj\Release\JSLicense.pdb
