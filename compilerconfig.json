@@ -1,0 +1,22 @@
+﻿[
+  {
+    "outputFile": "Js/main.js",
+    "inputFile": "Js/JSScript.js"
+  },
+  {
+    "outputFile": "Js/jquery.paging.js",
+    "inputFile": "Js/jquery.pagingScript.js"
+  },
+  {
+    "outputFile": "Js/jquery.ellipsis.js",
+    "inputFile": "Js/jquery.ellipsisScript.js"
+  },
+  {
+    "outputFile": "module.css",
+    "inputFile": "module.scss"
+  },
+  {
+    "outputFile": "Styles/variables.css",
+    "inputFile": "Styles/variables.scss"
+  }
+]

@@ -1,0 +1,1224 @@
+﻿@keyframes roll {
+  0% {
+    transform: rotate(0); }
+  100% {
+    transform: rotate(360deg); } }
+
+.JSLicense {
+  /*BOOTSTRAP RE-STYLING */ }
+  .JSLicense * {
+    -webkit-box-sizing: border-box !important;
+    -moz-box-sizing: border-box !important;
+    -o-box-sizing: border-box !important;
+    box-sizing: border-box !important; }
+  .JSLicense .link-dev {
+    float: right;
+    font-size: 12px;
+    color: #fff;
+    margin-top: 6px; }
+  .JSLicense .dnnForm {
+    /*DNN RE-STYLING CHECK BOX CONTROL*/
+    /*DON'T REORDER ROW DEFINITIONS*/
+    /*RADIO BUTTONS GROUP*/ }
+    .JSLicense .dnnForm fieldset {
+      border: none;
+      margin: 0;
+      padding: 0;
+      margin-bottom: 10px;
+      float: left;
+      clear: both;
+      width: 100%; }
+    .JSLicense .dnnForm .fieldset {
+      float: left;
+      padding: 15px 0;
+      margin: 0;
+      width: 100%; }
+      .JSLicense .dnnForm .fieldset:nth-child(even) {
+        background: rgba(59, 30, 119, 0.05); }
+    .JSLicense .dnnForm .form-control {
+      width: 45%;
+      height: 35px;
+      line-height: normal;
+      -moz-box-shadow: none;
+      -webkit-box-shadow: none;
+      -o-box-shadow: none;
+      box-shadow: none; }
+      .JSLicense .dnnForm .form-control.teaser-txt {
+        height: 70px; }
+      .JSLicense .dnnForm .form-control.body-txt {
+        height: 150px; }
+    .JSLicense .dnnForm h1, .JSLicense .dnnForm h2, .JSLicense .dnnForm h3, .JSLicense .dnnForm h4, .JSLicense .dnnForm h5, .JSLicense .dnnForm h6 {
+      color: #3b1e77; }
+    .JSLicense .dnnForm h3 {
+      font-size: 1.571em; }
+    .JSLicense .dnnForm h4 {
+      font-size: 1.286em; }
+    .JSLicense .dnnForm .dnnFormSectionHead {
+      border-bottom: none; }
+      .JSLicense .dnnForm .dnnFormSectionHead span {
+        font-size: inherit;
+        color: #fff; }
+      .JSLicense .dnnForm .dnnFormSectionHead .dnnFormMessage {
+        margin: 0 0 30px;
+        padding: 15px;
+        background-size: 30px;
+        font-weight: normal;
+        line-height: normal;
+        border: none;
+        max-width: 100%;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        -ms-border-radius: 0;
+        border-radius: 0; }
+        .JSLicense .dnnForm .dnnFormSectionHead .dnnFormMessage.dnnFormTitle {
+          color: #fff;
+          background-color: rgba(59, 30, 119, 0.8); }
+          .JSLicense .dnnForm .dnnFormSectionHead .dnnFormMessage.dnnFormTitle.dnnFormIcon {
+            padding: 15px 15px 15px 55px;
+            background-image: url(Images/Icons/h-icon.png);
+            background-repeat: no-repeat;
+            background-position: 15px center; }
+        .JSLicense .dnnForm .dnnFormSectionHead .dnnFormMessage.dnnFormInfo {
+          color: #fff;
+          background: rgba(59, 30, 119, 0.5);
+          /*display: $none;*/ }
+      .JSLicense .dnnForm .dnnFormSectionHead .JSLicenseMenu {
+        display: inline-block;
+        margin: 0; }
+        .JSLicense .dnnForm .dnnFormSectionHead .JSLicenseMenu .dnnFormTitle {
+          float: left;
+          background-color: rgba(59, 30, 119, 0.7); }
+          .JSLicense .dnnForm .dnnFormSectionHead .JSLicenseMenu .dnnFormTitle.error {
+            background-color: #d9534f; }
+          .JSLicense .dnnForm .dnnFormSectionHead .JSLicenseMenu .dnnFormTitle.success {
+            background-color: #27ae60; }
+        .JSLicense .dnnForm .dnnFormSectionHead .JSLicenseMenu .dnnFormMessage {
+          padding: 0 15px;
+          min-width: 45px;
+          width: 100%;
+          height: 45px;
+          line-height: 45px;
+          font-size: 1.286em; }
+          .JSLicense .dnnForm .dnnFormSectionHead .JSLicenseMenu .dnnFormMessage.no-controls {
+            width: 100%; }
+          .JSLicense .dnnForm .dnnFormSectionHead .JSLicenseMenu .dnnFormMessage.one-control {
+            width: calc(100% - 45px); }
+          .JSLicense .dnnForm .dnnFormSectionHead .JSLicenseMenu .dnnFormMessage.two-controls {
+            width: calc(100% - 90px); }
+          .JSLicense .dnnForm .dnnFormSectionHead .JSLicenseMenu .dnnFormMessage.three-controls {
+            width: calc(100% - 135px); }
+          .JSLicense .dnnForm .dnnFormSectionHead .JSLicenseMenu .dnnFormMessage.four-controls {
+            width: calc(100% - 180px); }
+        .JSLicense .dnnForm .dnnFormSectionHead .JSLicenseMenu a.btn {
+          float: left;
+          padding: 0;
+          margin: 0;
+          min-width: 45px;
+          height: 45px;
+          line-height: 45px;
+          font-size: 1.286em;
+          text-align: center; }
+          .JSLicense .dnnForm .dnnFormSectionHead .JSLicenseMenu a.btn.error {
+            background-color: #d9534f; }
+            .JSLicense .dnnForm .dnnFormSectionHead .JSLicenseMenu a.btn.error:hover {
+              background-color: rgba(217, 83, 79, 0.8); }
+          .JSLicense .dnnForm .dnnFormSectionHead .JSLicenseMenu a.btn.success {
+            background-color: #27ae60; }
+            .JSLicense .dnnForm .dnnFormSectionHead .JSLicenseMenu a.btn.success:hover {
+              background-color: rgba(39, 174, 96, 0.8); }
+      .JSLicense .dnnForm .dnnFormSectionHead .no-spacing {
+        margin: 0; }
+    .JSLicense .dnnForm input[type=checkbox],
+    .JSLicense .dnnForm input[type=radio] {
+      visibility: hidden;
+      display: none; }
+    .JSLicense .dnnForm .dnnCheckbox img {
+      display: inline-block;
+      width: 20px;
+      height: 18px;
+      min-width: 20px;
+      vertical-align: middle; }
+    .JSLicense .dnnForm .dnnCheckbox img {
+      background: transparent url(Images/Icons/checkbox.png) no-repeat; }
+    .JSLicense .dnnForm .dnnCheckbox img {
+      background-position: 0px 0px; }
+    .JSLicense .dnnForm .dnnCheckbox-checked img {
+      background-position: -50px 0px; }
+    .JSLicense .dnnForm .dnnCheckbox-disabled img {
+      opacity: .5; }
+    .JSLicense .dnnForm .dnnRadiobutton img {
+      width: 20px;
+      height: 18px;
+      min-width: 20px;
+      vertical-align: middle; }
+    .JSLicense .dnnForm .dnnRadiobutton img {
+      background: transparent url(Images/Icons/radiobutton.png) no-repeat; }
+    .JSLicense .dnnForm .dnnRadiobutton img {
+      background-position: 0px 0px; }
+    .JSLicense .dnnForm .dnnRadiobutton-checked img {
+      background-position: -50px 0px; }
+    .JSLicense .dnnForm .dnnRadiobutton-disabled img {
+      opacity: .5; }
+    .JSLicense .dnnForm .dnnFormItem {
+      margin-top: 15px;
+      float: left; }
+      .JSLicense .dnnForm .dnnFormItem:first-child {
+        margin-top: 0; }
+      .JSLicense .dnnForm .dnnFormItem.controls {
+        margin: 0;
+        padding: 10px 0 0 0;
+        border-top: 1px solid rgba(59, 30, 119, 0.25); }
+      .JSLicense .dnnForm .dnnFormItem.popup {
+        position: fixed;
+        top: 0;
+        left: 0;
+        margin: 0;
+        text-align: center;
+        background: rgba(255, 255, 255, 0.7);
+        width: 100%;
+        height: 100%;
+        z-index: 9998; }
+        .JSLicense .dnnForm .dnnFormItem.popup.confirm-box .popup-wrapper {
+          top: calc((100% - 315px)/2); }
+        .JSLicense .dnnForm .dnnFormItem.popup.auto-close-box .popup-wrapper {
+          top: calc((100% - 274px)/2); }
+        .JSLicense .dnnForm .dnnFormItem.popup.overlay .popup-wrapper {
+          top: 40px;
+          position: relative; }
+          .JSLicense .dnnForm .dnnFormItem.popup.overlay .popup-wrapper .popup-icon {
+            color: rgba(59, 30, 119, 0.7); }
+          .JSLicense .dnnForm .dnnFormItem.popup.overlay .popup-wrapper h1, .JSLicense .dnnForm .dnnFormItem.popup.overlay .popup-wrapper h2, .JSLicense .dnnForm .dnnFormItem.popup.overlay .popup-wrapper h3, .JSLicense .dnnForm .dnnFormItem.popup.overlay .popup-wrapper h4, .JSLicense .dnnForm .dnnFormItem.popup.overlay .popup-wrapper h5, .JSLicense .dnnForm .dnnFormItem.popup.overlay .popup-wrapper h6 {
+            color: rgba(59, 30, 119, 0.7); }
+          .JSLicense .dnnForm .dnnFormItem.popup.overlay .popup-wrapper input[type=text] {
+            height: 100px; }
+        .JSLicense .dnnForm .dnnFormItem.popup .popup-wrapper {
+          position: relative;
+          width: 60%;
+          left: 20%;
+          padding: 15px; }
+          .JSLicense .dnnForm .dnnFormItem.popup .popup-wrapper h1, .JSLicense .dnnForm .dnnFormItem.popup .popup-wrapper h2, .JSLicense .dnnForm .dnnFormItem.popup .popup-wrapper h3, .JSLicense .dnnForm .dnnFormItem.popup .popup-wrapper h4, .JSLicense .dnnForm .dnnFormItem.popup .popup-wrapper h5, .JSLicense .dnnForm .dnnFormItem.popup .popup-wrapper h6 {
+            border: none;
+            padding: 0;
+            margin: 0; }
+          .JSLicense .dnnForm .dnnFormItem.popup .popup-wrapper .popup-icon {
+            display: block; }
+            .JSLicense .dnnForm .dnnFormItem.popup .popup-wrapper .popup-icon .fa {
+              font-size: 15em;
+              text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.15); }
+          .JSLicense .dnnForm .dnnFormItem.popup .popup-wrapper .popup-msg {
+            display: block;
+            margin: 10px 0 0 0;
+            word-wrap: break-word;
+            word-break: break-all; }
+          .JSLicense .dnnForm .dnnFormItem.popup .popup-wrapper .btn-group {
+            margin-top: 15px; }
+            .JSLicense .dnnForm .dnnFormItem.popup .popup-wrapper .btn-group .btn {
+              margin: 0; }
+          .JSLicense .dnnForm .dnnFormItem.popup .popup-wrapper .btn {
+            border: none;
+            margin: 15px 0 0 0; }
+          .JSLicense .dnnForm .dnnFormItem.popup .popup-wrapper .progress-bar {
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 0;
+            height: 2px;
+            -webkit-transition: width 3000ms ease-out;
+            -moz-transition: width 3000ms ease-out;
+            -o-transition: width 3000ms ease-out;
+            transition: width 3000ms ease-out;
+            -webkit-transition-delay: 0;
+            -moz-transition-delay: 0;
+            -o-transition-delay: 0;
+            transition-delay: 0; }
+          .JSLicense .dnnForm .dnnFormItem.popup .popup-wrapper .close-action {
+            position: absolute;
+            background-color: transparent;
+            color: rgba(59, 30, 119, 0.7);
+            border: none;
+            top: -70px;
+            right: -70px;
+            padding: 0;
+            margin: 0;
+            width: 70px;
+            height: 70px;
+            line-height: 70px; }
+            .JSLicense .dnnForm .dnnFormItem.popup .popup-wrapper .close-action:hover {
+              background-color: rgba(59, 30, 119, 0.7);
+              color: #fff; }
+        .JSLicense .dnnForm .dnnFormItem.popup.success .popup-wrapper .popup-icon {
+          color: #27ae60; }
+        .JSLicense .dnnForm .dnnFormItem.popup.success .popup-wrapper h1, .JSLicense .dnnForm .dnnFormItem.popup.success .popup-wrapper h2, .JSLicense .dnnForm .dnnFormItem.popup.success .popup-wrapper h3, .JSLicense .dnnForm .dnnFormItem.popup.success .popup-wrapper h4, .JSLicense .dnnForm .dnnFormItem.popup.success .popup-wrapper h5, .JSLicense .dnnForm .dnnFormItem.popup.success .popup-wrapper h6 {
+          color: #27ae60; }
+        .JSLicense .dnnForm .dnnFormItem.popup.success .popup-wrapper .btn.close-action:hover {
+          background-color: #27ae60; }
+        .JSLicense .dnnForm .dnnFormItem.popup.success .popup-wrapper .progress-bar {
+          background: #27ae60; }
+        .JSLicense .dnnForm .dnnFormItem.popup.success .popup-wrapper .close-action {
+          color: #27ae60; }
+          .JSLicense .dnnForm .dnnFormItem.popup.success .popup-wrapper .close-action:hover {
+            color: #fff;
+            background-color: #27ae60; }
+        .JSLicense .dnnForm .dnnFormItem.popup.warning .popup-wrapper .popup-icon {
+          color: #d9534f; }
+        .JSLicense .dnnForm .dnnFormItem.popup.warning .popup-wrapper h1, .JSLicense .dnnForm .dnnFormItem.popup.warning .popup-wrapper h2, .JSLicense .dnnForm .dnnFormItem.popup.warning .popup-wrapper h3, .JSLicense .dnnForm .dnnFormItem.popup.warning .popup-wrapper h4, .JSLicense .dnnForm .dnnFormItem.popup.warning .popup-wrapper h5, .JSLicense .dnnForm .dnnFormItem.popup.warning .popup-wrapper h6 {
+          color: #d9534f; }
+        .JSLicense .dnnForm .dnnFormItem.popup.warning .popup-wrapper .btn.close-action:hover {
+          background-color: #d9534f; }
+        .JSLicense .dnnForm .dnnFormItem.popup.warning .popup-wrapper .progress-bar {
+          background: #d9534f; }
+        .JSLicense .dnnForm .dnnFormItem.popup.warning .popup-wrapper .close-action {
+          color: #d9534f; }
+          .JSLicense .dnnForm .dnnFormItem.popup.warning .popup-wrapper .close-action:hover {
+            color: #fff;
+            background-color: #d9534f; }
+      .JSLicense .dnnForm .dnnFormItem.group input[type="text"],
+      .JSLicense .dnnForm .dnnFormItem.group select,
+      .JSLicense .dnnForm .dnnFormItem.group textarea,
+      .JSLicense .dnnForm .dnnFormItem.group input[type="email"],
+      .JSLicense .dnnForm .dnnFormItem.group input[type="search"],
+      .JSLicense .dnnForm .dnnFormItem.group input[type="date"] {
+        float: left;
+        height: 35px;
+        line-height: 35px;
+        width: 50%;
+        max-width: 450px; }
+        .JSLicense .dnnForm .dnnFormItem.group input[type="text"].grouped,
+        .JSLicense .dnnForm .dnnFormItem.group select.grouped,
+        .JSLicense .dnnForm .dnnFormItem.group textarea.grouped,
+        .JSLicense .dnnForm .dnnFormItem.group input[type="email"].grouped,
+        .JSLicense .dnnForm .dnnFormItem.group input[type="search"].grouped,
+        .JSLicense .dnnForm .dnnFormItem.group input[type="date"].grouped {
+          border-right: none; }
+          .JSLicense .dnnForm .dnnFormItem.group input[type="text"].grouped.squared-box,
+          .JSLicense .dnnForm .dnnFormItem.group select.grouped.squared-box,
+          .JSLicense .dnnForm .dnnFormItem.group textarea.grouped.squared-box,
+          .JSLicense .dnnForm .dnnFormItem.group input[type="email"].grouped.squared-box,
+          .JSLicense .dnnForm .dnnFormItem.group input[type="search"].grouped.squared-box,
+          .JSLicense .dnnForm .dnnFormItem.group input[type="date"].grouped.squared-box {
+            width: calc(50% - 45px);
+            max-width: 405px;
+            margin-right: 10px;
+            border: 1px solid rgba(59, 30, 119, 0.25); }
+            .JSLicense .dnnForm .dnnFormItem.group input[type="text"].grouped.squared-box:focus,
+            .JSLicense .dnnForm .dnnFormItem.group select.grouped.squared-box:focus,
+            .JSLicense .dnnForm .dnnFormItem.group textarea.grouped.squared-box:focus,
+            .JSLicense .dnnForm .dnnFormItem.group input[type="email"].grouped.squared-box:focus,
+            .JSLicense .dnnForm .dnnFormItem.group input[type="search"].grouped.squared-box:focus,
+            .JSLicense .dnnForm .dnnFormItem.group input[type="date"].grouped.squared-box:focus {
+              border: 1px solid #3b1e77; }
+        .JSLicense .dnnForm .dnnFormItem.group input[type="text"].ungrouped,
+        .JSLicense .dnnForm .dnnFormItem.group select.ungrouped,
+        .JSLicense .dnnForm .dnnFormItem.group textarea.ungrouped,
+        .JSLicense .dnnForm .dnnFormItem.group input[type="email"].ungrouped,
+        .JSLicense .dnnForm .dnnFormItem.group input[type="search"].ungrouped,
+        .JSLicense .dnnForm .dnnFormItem.group input[type="date"].ungrouped {
+          border: 1px solid rgba(59, 30, 119, 0.25); }
+          .JSLicense .dnnForm .dnnFormItem.group input[type="text"].ungrouped:focus,
+          .JSLicense .dnnForm .dnnFormItem.group select.ungrouped:focus,
+          .JSLicense .dnnForm .dnnFormItem.group textarea.ungrouped:focus,
+          .JSLicense .dnnForm .dnnFormItem.group input[type="email"].ungrouped:focus,
+          .JSLicense .dnnForm .dnnFormItem.group input[type="search"].ungrouped:focus,
+          .JSLicense .dnnForm .dnnFormItem.group input[type="date"].ungrouped:focus {
+            border: 1px solid #3b1e77; }
+      .JSLicense .dnnForm .dnnFormItem.group .news-image {
+        float: left;
+        width: auto;
+        height: 35px; }
+      .JSLicense .dnnForm .dnnFormItem.group .btn {
+        float: left;
+        padding: 0 10px;
+        height: 35px;
+        line-height: 35px;
+        min-width: 35px;
+        text-align: center; }
+        .JSLicense .dnnForm .dnnFormItem.group .btn.btn-icon {
+          padding: 0; }
+      .JSLicense .dnnForm .dnnFormItem.no-spacing {
+        padding: 0;
+        margin: 0; }
+      .JSLicense .dnnForm .dnnFormItem select > option {
+        color: #3b1e77; }
+      .JSLicense .dnnForm .dnnFormItem label span,
+      .JSLicense .dnnForm .dnnFormItem .dnnBoxLabel {
+        color: rgba(59, 30, 119, 0.7);
+        font-weight: bold; }
+      .JSLicense .dnnForm .dnnFormItem > .dnnLabel,
+      .JSLicense .dnnForm .dnnFormItem .dnnLabel {
+        margin-top: 5px; }
+        .JSLicense .dnnForm .dnnFormItem > .dnnLabel + span,
+        .JSLicense .dnnForm .dnnFormItem .dnnLabel + span {
+          margin-top: 0;
+          margin-bottom: 0; }
+      .JSLicense .dnnForm .dnnFormItem .btn {
+        line-height: normal;
+        border: none;
+        padding: 10px 15px;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        -ms-border-radius: 0;
+        border-radius: 0;
+        -webkit-transition: all 300ms ease-out;
+        -moz-transition: all 300ms ease-out;
+        -o-transition: all 300ms ease-out;
+        transition: all 300ms ease-out; }
+        .JSLicense .dnnForm .dnnFormItem .btn.btn-primary {
+          background-color: rgba(59, 30, 119, 0.7); }
+          .JSLicense .dnnForm .dnnFormItem .btn.btn-primary:hover, .JSLicense .dnnForm .dnnFormItem .btn.btn-primary:focus, .JSLicense .dnnForm .dnnFormItem .btn.btn-primary:active {
+            background-color: rgba(59, 30, 119, 0.8);
+            outline: none !important; }
+        .JSLicense .dnnForm .dnnFormItem .btn.btn-default {
+          color: rgba(59, 30, 119, 0.7); }
+          .JSLicense .dnnForm .dnnFormItem .btn.btn-default:hover, .JSLicense .dnnForm .dnnFormItem .btn.btn-default:focus, .JSLicense .dnnForm .dnnFormItem .btn.btn-default:active {
+            color: #fff;
+            background-color: rgba(59, 30, 119, 0.7);
+            outline: none !important; }
+        .JSLicense .dnnForm .dnnFormItem .btn:hover {
+          border: none; }
+        .JSLicense .dnnForm .dnnFormItem .btn:active {
+          -moz-box-shadow: none;
+          -webkit-box-shadow: none;
+          -o-box-shadow: none;
+          box-shadow: none; }
+      .JSLicense .dnnForm .dnnFormItem .input-group {
+        display: block; }
+        .JSLicense .dnnForm .dnnFormItem .input-group .input-group-addon {
+          float: left;
+          width: 35px;
+          height: 35px;
+          line-height: 35px;
+          padding: 0;
+          background-color: transparent;
+          border: 1px solid rgba(59, 30, 119, 0.25);
+          -webkit-border-radius: 0;
+          -moz-border-radius: 0;
+          -ms-border-radius: 0;
+          border-radius: 0; }
+          .JSLicense .dnnForm .dnnFormItem .input-group .input-group-addon i {
+            height: 33px;
+            vertical-align: top;
+            width: 33px; }
+      .JSLicense .dnnForm .dnnFormItem .txt-error-validate {
+        font-style: italic;
+        position: absolute;
+        top: 5px;
+        /*left: calc(82.075% - 97px);*/
+        left: calc(32.075% + 355px - 18px);
+        color: #fff;
+        background: #d9534f;
+        height: 25px;
+        line-height: 25px;
+        min-width: 110px;
+        text-align: center; }
+    .JSLicense .dnnForm.controls {
+      margin: 0;
+      padding: 10px 0 0 0;
+      border-top: 1px solid rgba(59, 30, 119, 0.25);
+      float: left; }
+    .JSLicense .dnnForm.edit .dnnFormItem button,
+    .JSLicense .dnnForm.edit .dnnFormItem input[type="button"],
+    .JSLicense .dnnForm.edit .dnnFormItem input[type="reset"],
+    .JSLicense .dnnForm.edit .dnnSecondaryAction,
+    .JSLicense .dnnForm.edit a.dnnSecondaryAction,
+    .JSLicense .dnnForm.edit ul.dnnAdminTabNav li a,
+    .JSLicense .dnnForm.edit .dnnLogin .LoginTabGroup span, .JSLicense .dnnForm.add-new .dnnFormItem button,
+    .JSLicense .dnnForm.add-new .dnnFormItem input[type="button"],
+    .JSLicense .dnnForm.add-new .dnnFormItem input[type="reset"],
+    .JSLicense .dnnForm.add-new .dnnSecondaryAction,
+    .JSLicense .dnnForm.add-new a.dnnSecondaryAction,
+    .JSLicense .dnnForm.add-new ul.dnnAdminTabNav li a,
+    .JSLicense .dnnForm.add-new .dnnLogin .LoginTabGroup span, .JSLicense .dnnForm.settings .dnnFormItem button,
+    .JSLicense .dnnForm.settings .dnnFormItem input[type="button"],
+    .JSLicense .dnnForm.settings .dnnFormItem input[type="reset"],
+    .JSLicense .dnnForm.settings .dnnSecondaryAction,
+    .JSLicense .dnnForm.settings a.dnnSecondaryAction,
+    .JSLicense .dnnForm.settings ul.dnnAdminTabNav li a,
+    .JSLicense .dnnForm.settings .dnnLogin .LoginTabGroup span {
+      margin: 0;
+      padding: 0 10px;
+      height: 35px;
+      line-height: 35px;
+      min-width: 35px;
+      text-align: center;
+      color: #fff;
+      background: rgba(59, 30, 119, 0.7);
+      font-family: inherit;
+      font-weight: normal;
+      border: none;
+      text-decoration: none;
+      text-shadow: none;
+      -webkit-border-radius: 0;
+      -moz-border-radius: 0;
+      -ms-border-radius: 0;
+      border-radius: 0;
+      -moz-box-shadow: none;
+      -webkit-box-shadow: none;
+      -o-box-shadow: none;
+      box-shadow: none; }
+      .JSLicense .dnnForm.edit .dnnFormItem button:hover,
+      .JSLicense .dnnForm.edit .dnnFormItem input[type="button"]:hover,
+      .JSLicense .dnnForm.edit .dnnFormItem input[type="reset"]:hover,
+      .JSLicense .dnnForm.edit .dnnSecondaryAction:hover,
+      .JSLicense .dnnForm.edit a.dnnSecondaryAction:hover,
+      .JSLicense .dnnForm.edit ul.dnnAdminTabNav li a:hover,
+      .JSLicense .dnnForm.edit .dnnLogin .LoginTabGroup span:hover, .JSLicense .dnnForm.add-new .dnnFormItem button:hover,
+      .JSLicense .dnnForm.add-new .dnnFormItem input[type="button"]:hover,
+      .JSLicense .dnnForm.add-new .dnnFormItem input[type="reset"]:hover,
+      .JSLicense .dnnForm.add-new .dnnSecondaryAction:hover,
+      .JSLicense .dnnForm.add-new a.dnnSecondaryAction:hover,
+      .JSLicense .dnnForm.add-new ul.dnnAdminTabNav li a:hover,
+      .JSLicense .dnnForm.add-new .dnnLogin .LoginTabGroup span:hover, .JSLicense .dnnForm.settings .dnnFormItem button:hover,
+      .JSLicense .dnnForm.settings .dnnFormItem input[type="button"]:hover,
+      .JSLicense .dnnForm.settings .dnnFormItem input[type="reset"]:hover,
+      .JSLicense .dnnForm.settings .dnnSecondaryAction:hover,
+      .JSLicense .dnnForm.settings a.dnnSecondaryAction:hover,
+      .JSLicense .dnnForm.settings ul.dnnAdminTabNav li a:hover,
+      .JSLicense .dnnForm.settings .dnnLogin .LoginTabGroup span:hover {
+        background: rgba(59, 30, 119, 0.8); }
+    .JSLicense .dnnForm.edit a.dnnFormHelp, .JSLicense .dnnForm.add-new a.dnnFormHelp, .JSLicense .dnnForm.settings a.dnnFormHelp {
+      color: rgba(59, 30, 119, 0.7);
+      background: none;
+      top: 0;
+      width: auto;
+      height: auto;
+      font-weight: normal; }
+    .JSLicense .dnnForm.edit, .JSLicense .dnnForm.add-new, .JSLicense .dnnForm.settings {
+      font-size: 14px;
+      min-height: 475px; }
+      .JSLicense .dnnForm.edit input[type="text"],
+      .JSLicense .dnnForm.edit select,
+      .JSLicense .dnnForm.edit textarea,
+      .JSLicense .dnnForm.edit input[type="email"],
+      .JSLicense .dnnForm.edit input[type="search"],
+      .JSLicense .dnnForm.edit input[type="date"], .JSLicense .dnnForm.add-new input[type="text"],
+      .JSLicense .dnnForm.add-new select,
+      .JSLicense .dnnForm.add-new textarea,
+      .JSLicense .dnnForm.add-new input[type="email"],
+      .JSLicense .dnnForm.add-new input[type="search"],
+      .JSLicense .dnnForm.add-new input[type="date"], .JSLicense .dnnForm.settings input[type="text"],
+      .JSLicense .dnnForm.settings select,
+      .JSLicense .dnnForm.settings textarea,
+      .JSLicense .dnnForm.settings input[type="email"],
+      .JSLicense .dnnForm.settings input[type="search"],
+      .JSLicense .dnnForm.settings input[type="date"] {
+        margin: 0;
+        border: 1px solid rgba(59, 30, 119, 0.25);
+        color: rgba(59, 30, 119, 0.5);
+        width: 50%;
+        max-width: 450px;
+        font-size: 1em;
+        padding: 0 8px;
+        height: 35px;
+        line-height: 35px;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        -ms-border-radius: 0;
+        border-radius: 0;
+        -moz-box-shadow: none;
+        -webkit-box-shadow: none;
+        -o-box-shadow: none;
+        box-shadow: none;
+        -webkit-transition: all 300ms ease-out;
+        -moz-transition: all 300ms ease-out;
+        -o-transition: all 300ms ease-out;
+        transition: all 300ms ease-out; }
+        .JSLicense .dnnForm.edit input[type="text"]:active, .JSLicense .dnnForm.edit input[type="text"]:focus,
+        .JSLicense .dnnForm.edit select:active,
+        .JSLicense .dnnForm.edit select:focus,
+        .JSLicense .dnnForm.edit textarea:active,
+        .JSLicense .dnnForm.edit textarea:focus,
+        .JSLicense .dnnForm.edit input[type="email"]:active,
+        .JSLicense .dnnForm.edit input[type="email"]:focus,
+        .JSLicense .dnnForm.edit input[type="search"]:active,
+        .JSLicense .dnnForm.edit input[type="search"]:focus,
+        .JSLicense .dnnForm.edit input[type="date"]:active,
+        .JSLicense .dnnForm.edit input[type="date"]:focus, .JSLicense .dnnForm.add-new input[type="text"]:active, .JSLicense .dnnForm.add-new input[type="text"]:focus,
+        .JSLicense .dnnForm.add-new select:active,
+        .JSLicense .dnnForm.add-new select:focus,
+        .JSLicense .dnnForm.add-new textarea:active,
+        .JSLicense .dnnForm.add-new textarea:focus,
+        .JSLicense .dnnForm.add-new input[type="email"]:active,
+        .JSLicense .dnnForm.add-new input[type="email"]:focus,
+        .JSLicense .dnnForm.add-new input[type="search"]:active,
+        .JSLicense .dnnForm.add-new input[type="search"]:focus,
+        .JSLicense .dnnForm.add-new input[type="date"]:active,
+        .JSLicense .dnnForm.add-new input[type="date"]:focus, .JSLicense .dnnForm.settings input[type="text"]:active, .JSLicense .dnnForm.settings input[type="text"]:focus,
+        .JSLicense .dnnForm.settings select:active,
+        .JSLicense .dnnForm.settings select:focus,
+        .JSLicense .dnnForm.settings textarea:active,
+        .JSLicense .dnnForm.settings textarea:focus,
+        .JSLicense .dnnForm.settings input[type="email"]:active,
+        .JSLicense .dnnForm.settings input[type="email"]:focus,
+        .JSLicense .dnnForm.settings input[type="search"]:active,
+        .JSLicense .dnnForm.settings input[type="search"]:focus,
+        .JSLicense .dnnForm.settings input[type="date"]:active,
+        .JSLicense .dnnForm.settings input[type="date"]:focus {
+          color: #3b1e77;
+          background: #fff;
+          border: 1px solid #3b1e77;
+          outline: none;
+          overflow: visible;
+          -moz-box-shadow: 0 0 6px 1px rgba(59, 30, 119, 0.5);
+          -webkit-box-shadow: 0 0 6px 1px rgba(59, 30, 119, 0.5);
+          -o-box-shadow: 0 0 6px 1px rgba(59, 30, 119, 0.5);
+          box-shadow: 0 0 6px 1px rgba(59, 30, 119, 0.5); }
+        .JSLicense .dnnForm.edit input[type="text"][disabled="disabled"],
+        .JSLicense .dnnForm.edit select[disabled="disabled"],
+        .JSLicense .dnnForm.edit textarea[disabled="disabled"],
+        .JSLicense .dnnForm.edit input[type="email"][disabled="disabled"],
+        .JSLicense .dnnForm.edit input[type="search"][disabled="disabled"],
+        .JSLicense .dnnForm.edit input[type="date"][disabled="disabled"], .JSLicense .dnnForm.add-new input[type="text"][disabled="disabled"],
+        .JSLicense .dnnForm.add-new select[disabled="disabled"],
+        .JSLicense .dnnForm.add-new textarea[disabled="disabled"],
+        .JSLicense .dnnForm.add-new input[type="email"][disabled="disabled"],
+        .JSLicense .dnnForm.add-new input[type="search"][disabled="disabled"],
+        .JSLicense .dnnForm.add-new input[type="date"][disabled="disabled"], .JSLicense .dnnForm.settings input[type="text"][disabled="disabled"],
+        .JSLicense .dnnForm.settings select[disabled="disabled"],
+        .JSLicense .dnnForm.settings textarea[disabled="disabled"],
+        .JSLicense .dnnForm.settings input[type="email"][disabled="disabled"],
+        .JSLicense .dnnForm.settings input[type="search"][disabled="disabled"],
+        .JSLicense .dnnForm.settings input[type="date"][disabled="disabled"] {
+          color: #3b1e77;
+          width: calc(50% - 50px);
+          display: inline-block;
+          border: none;
+          background: none;
+          padding: 0;
+          -moz-box-shadow: none;
+          -webkit-box-shadow: none;
+          -o-box-shadow: none;
+          box-shadow: none; }
+        .JSLicense .dnnForm.edit input[type="text"].txt-img-url,
+        .JSLicense .dnnForm.edit select.txt-img-url,
+        .JSLicense .dnnForm.edit textarea.txt-img-url,
+        .JSLicense .dnnForm.edit input[type="email"].txt-img-url,
+        .JSLicense .dnnForm.edit input[type="search"].txt-img-url,
+        .JSLicense .dnnForm.edit input[type="date"].txt-img-url, .JSLicense .dnnForm.add-new input[type="text"].txt-img-url,
+        .JSLicense .dnnForm.add-new select.txt-img-url,
+        .JSLicense .dnnForm.add-new textarea.txt-img-url,
+        .JSLicense .dnnForm.add-new input[type="email"].txt-img-url,
+        .JSLicense .dnnForm.add-new input[type="search"].txt-img-url,
+        .JSLicense .dnnForm.add-new input[type="date"].txt-img-url, .JSLicense .dnnForm.settings input[type="text"].txt-img-url,
+        .JSLicense .dnnForm.settings select.txt-img-url,
+        .JSLicense .dnnForm.settings textarea.txt-img-url,
+        .JSLicense .dnnForm.settings input[type="email"].txt-img-url,
+        .JSLicense .dnnForm.settings input[type="search"].txt-img-url,
+        .JSLicense .dnnForm.settings input[type="date"].txt-img-url {
+          margin-left: 10px; }
+      .JSLicense .dnnForm.edit select, .JSLicense .dnnForm.add-new select, .JSLicense .dnnForm.settings select {
+        width: auto;
+        min-width: 100px; }
+      .JSLicense .dnnForm.edit .rich-text-editor textarea, .JSLicense .dnnForm.add-new .rich-text-editor textarea, .JSLicense .dnnForm.settings .rich-text-editor textarea {
+        max-width: calc(100% - 16px);
+        max-height: calc(100% - 10px); }
+        .JSLicense .dnnForm.edit .rich-text-editor textarea:active, .JSLicense .dnnForm.edit .rich-text-editor textarea:focus, .JSLicense .dnnForm.add-new .rich-text-editor textarea:active, .JSLicense .dnnForm.add-new .rich-text-editor textarea:focus, .JSLicense .dnnForm.settings .rich-text-editor textarea:active, .JSLicense .dnnForm.settings .rich-text-editor textarea:focus {
+          -moz-box-shadow: none;
+          -webkit-box-shadow: none;
+          -o-box-shadow: none;
+          box-shadow: none; }
+  .JSLicense .dropup .dropdown-menu {
+    border: 1px solid rgba(59, 30, 119, 0.7);
+    border-bottom: none;
+    margin-bottom: 0; }
+  .JSLicense .squared {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    border-radius: 0; }
+  .JSLicense .circle {
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%; }
+  .JSLicense .edge {
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    border-radius: 10px; }
+  .JSLicense .bx-wrapper {
+    margin: 0 auto;
+    border: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    -o-box-shadow: none;
+    box-shadow: none; }
+    .JSLicense .bx-wrapper .bx-viewport {
+      min-height: inherit; }
+    .JSLicense .bx-wrapper .bx-slider {
+      margin: 0; }
+    .JSLicense .bx-wrapper .bx-controls.bx-has-pager .bx-pager {
+      float: left;
+      position: relative;
+      padding: 0;
+      margin-top: 0;
+      bottom: 0;
+      width: 100%;
+      height: 30px;
+      line-height: 30px;
+      color: rgba(59, 30, 119, 0.7);
+      text-align: center;
+      font-family: inherit;
+      font-weight: normal; }
+      .JSLicense .bx-wrapper .bx-controls.bx-has-pager .bx-pager .bx-pager-item {
+        font-size: 0;
+        line-height: 15px; }
+      .JSLicense .bx-wrapper .bx-controls.bx-has-pager .bx-pager.bx-default-pager a {
+        width: 6px;
+        height: 6px;
+        margin: 0 4px;
+        background: rgba(59, 30, 119, 0.7);
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        border-radius: 50%; }
+        .JSLicense .bx-wrapper .bx-controls.bx-has-pager .bx-pager.bx-default-pager a.active, .JSLicense .bx-wrapper .bx-controls.bx-has-pager .bx-pager.bx-default-pager a:hover {
+          background: transparent;
+          -moz-box-shadow: 0px 0px 0px 2px rgba(59, 30, 119, 0.7);
+          -webkit-box-shadow: 0px 0px 0px 2px rgba(59, 30, 119, 0.7);
+          -o-box-shadow: 0px 0px 0px 2px rgba(59, 30, 119, 0.7);
+          box-shadow: 0px 0px 0px 2px rgba(59, 30, 119, 0.7); }
+    .JSLicense .bx-wrapper .bx-controls.bx-has-controls-direction {
+      float: left;
+      width: 100%; }
+      .JSLicense .bx-wrapper .bx-controls.bx-has-controls-direction .bx-pager {
+        width: calc(100% - 60px);
+        text-align: left;
+        margin-top: 10px; }
+      .JSLicense .bx-wrapper .bx-controls.bx-has-controls-direction .bx-controls-direction {
+        float: right;
+        margin-top: 10px; }
+        .JSLicense .bx-wrapper .bx-controls.bx-has-controls-direction .bx-controls-direction a {
+          padding: 0;
+          margin: 0;
+          width: 30px;
+          height: 30px;
+          line-height: 30px;
+          position: relative;
+          background-image: none;
+          text-indent: inherit; }
+          .JSLicense .bx-wrapper .bx-controls.bx-has-controls-direction .bx-controls-direction a.bx-next {
+            right: 0; }
+          .JSLicense .bx-wrapper .bx-controls.bx-has-controls-direction .bx-controls-direction a.bx-prev {
+            left: 0; }
+  .JSLicense .input-group .input-group-addon {
+    height: 60px;
+    line-height: 60px;
+    padding: 0 20px;
+    border: none;
+    background-color: rgba(59, 30, 119, 0.7);
+    color: #fff;
+    cursor: default;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    border-radius: 0; }
+    .JSLicense .input-group .input-group-addon i {
+      height: 33px;
+      width: 33px;
+      line-height: 33px;
+      display: block; }
+    .JSLicense .input-group .input-group-addon strong {
+      color: #fff; }
+  .JSLicense .input-group input[type=text] {
+    border: 1px solid rgba(59, 30, 119, 0.7);
+    border-left: none;
+    padding: 20px 10px;
+    height: inherit;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    border-radius: 0;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    -o-box-shadow: none;
+    box-shadow: none; }
+    .JSLicense .input-group input[type=text][disabled=disabled], .JSLicense .input-group input[type=text].aspNetDisabled {
+      border: none;
+      background: rgba(59, 30, 119, 0.7);
+      color: #fff;
+      cursor: default; }
+  .JSLicense .pnl-owner-info {
+    text-align: left;
+    background: rgba(59, 30, 119, 0.8); }
+    .JSLicense .pnl-owner-info .owner-wrapper {
+      padding: 10px 15px; }
+      .JSLicense .pnl-owner-info .owner-wrapper span,
+      .JSLicense .pnl-owner-info .owner-wrapper strong,
+      .JSLicense .pnl-owner-info .owner-wrapper a,
+      .JSLicense .pnl-owner-info .owner-wrapper a:link,
+      .JSLicense .pnl-owner-info .owner-wrapper .btn {
+        color: #fff; }
+      .JSLicense .pnl-owner-info .owner-wrapper span {
+        display: block;
+        line-height: 30px; }
+  .JSLicense table {
+    border: none;
+    width: 100%;
+    margin: 0; }
+    .JSLicense table thead a, .JSLicense table tbody a {
+      text-decoration: none; }
+      .JSLicense table thead a:hover, .JSLicense table tbody a:hover {
+        text-decoration: none; }
+    .JSLicense table thead .btn, .JSLicense table tbody .btn {
+      padding: 5px 10px;
+      display: block; }
+      .JSLicense table thead .btn.no-txt, .JSLicense table tbody .btn.no-txt {
+        padding: 0;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        float: right; }
+    .JSLicense table thead tr > th {
+      padding-top: 15px;
+      padding-bottom: 15px;
+      border: none; }
+    .JSLicense table tbody tr td {
+      vertical-align: middle;
+      border: none;
+      padding: 0 8px;
+      height: 50px;
+      line-height: 50px; }
+      .JSLicense table tbody tr td span,
+      .JSLicense table tbody tr td a {
+        display: block;
+        width: 100%;
+        line-height: 25px; }
+        .JSLicense table tbody tr td span.group,
+        .JSLicense table tbody tr td a.group {
+          display: inline-block;
+          padding-right: 10px;
+          float: left;
+          height: 30px;
+          line-height: 30px; }
+      .JSLicense table tbody tr td span.group {
+        width: calc(100% - 30px); }
+      .JSLicense table tbody tr td a.group {
+        width: auto; }
+      .JSLicense table tbody tr td:nth-child(2) span,
+      .JSLicense table tbody tr td:nth-child(2) a {
+        font-weight: bold;
+        color: #3b1e77; }
+      .JSLicense table tbody tr td:nth-child(2) a:hover {
+        text-decoration: underline; }
+      .JSLicense table tbody tr td:nth-child(2) .btn:hover {
+        text-decoration: none; }
+      .JSLicense table tbody tr td:last-child span.group,
+      .JSLicense table tbody tr td:last-child a.group {
+        text-align: center; }
+    .JSLicense table tr th, .JSLicense table tr td {
+      vertical-align: middle; }
+    .JSLicense table tr th:nth-child(1),
+    .JSLicense table tr td:nth-child(1) {
+      width: 40px;
+      text-align: center; }
+    .JSLicense table tr > th {
+      color: rgba(255, 255, 255, 0.8);
+      background-color: rgba(59, 30, 119, 0.8);
+      border: none; }
+    .JSLicense table tr > td {
+      word-break: break-all;
+      word-wrap: break-word;
+      word-spacing: normal;
+      line-height: 40px; }
+  .JSLicense .bs-actionsbox,
+  .JSLicense .bs-donebutton,
+  .JSLicense .bs-searchbox {
+    padding: 0; }
+  .JSLicense .bs-searchbox + .bs-actionsbox {
+    padding: 0; }
+  .JSLicense .dropdown-menu {
+    border: 1px solid rgba(59, 30, 119, 0.7);
+    border-top: none;
+    box-shadow: none;
+    /*background-color: $dark-alpha-md;*/
+    margin-top: 0;
+    padding: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    border-radius: 0; }
+    .JSLicense .dropdown-menu > li > a {
+      color: rgba(59, 30, 119, 0.7);
+      padding: 8px;
+      outline: none; }
+      .JSLicense .dropdown-menu > li > a:hover {
+        color: #3b1e77; }
+  .JSLicense .bootstrap-select.btn-group.show-tick .dropdown-menu li.selected a span.check-mark {
+    margin-top: 10px;
+    color: rgba(59, 30, 119, 0.7); }
+  .JSLicense .tooltip.in {
+    filter: alpha(opacity=100);
+    opacity: 1; }
+  .JSLicense .tooltip.top .tooltip-arrow {
+    border-top-color: rgba(0, 0, 0, 0.8); }
+  .JSLicense .tooltip.top-left .tooltip-arrow {
+    border-top-color: rgba(0, 0, 0, 0.8); }
+  .JSLicense .tooltip.top-right .tooltip-arrow {
+    border-top-color: rgba(0, 0, 0, 0.8); }
+  .JSLicense .tooltip.right .tooltip-arrow {
+    border-right-color: rgba(0, 0, 0, 0.8); }
+  .JSLicense .tooltip.left .tooltip-arrow {
+    border-left-color: rgba(0, 0, 0, 0.8); }
+  .JSLicense .tooltip.bottom .tooltip-arrow {
+    border-bottom-color: rgba(0, 0, 0, 0.8); }
+  .JSLicense .tooltip.bottom-left .tooltip-arrow {
+    border-bottom-color: rgba(0, 0, 0, 0.8); }
+  .JSLicense .tooltip.bottom-right .tooltip-arrow {
+    border-bottom-color: rgba(0, 0, 0, 0.8); }
+  .JSLicense .tooltip .tooltip-inner {
+    background-color: rgba(0, 0, 0, 0.8);
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    border-radius: 0; }
+  .JSLicense .ellipsis {
+    overflow: hidden;
+    text-overflow: ellipsis; }
+  .JSLicense .hidden {
+    display: none !important;
+    visibility: hidden !important; }
+  .JSLicense .aspNetDisabled,
+  .JSLicense a.aspNetDisabled,
+  .JSLicense .dnnDisabled,
+  .JSLicense a.dnnDisabled,
+  .JSLicense [disabled=disabled] {
+    color: rgba(59, 30, 119, 0.25);
+    cursor: default; }
+  .JSLicense .clear {
+    clear: both; }
+  .JSLicense .popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.7);
+    width: 100%;
+    height: 100%;
+    z-index: 9998; }
+    .JSLicense .popup.confirm-box .popup-wrapper {
+      top: calc((100% - 315px)/2); }
+    .JSLicense .popup.auto-close-box .popup-wrapper {
+      top: calc((100% - 274px)/2); }
+    .JSLicense .popup.overlay .popup-wrapper {
+      top: 100px;
+      position: relative; }
+      .JSLicense .popup.overlay .popup-wrapper .popup-icon {
+        color: rgba(59, 30, 119, 0.7); }
+      .JSLicense .popup.overlay .popup-wrapper h1, .JSLicense .popup.overlay .popup-wrapper h2, .JSLicense .popup.overlay .popup-wrapper h3, .JSLicense .popup.overlay .popup-wrapper h4, .JSLicense .popup.overlay .popup-wrapper h5, .JSLicense .popup.overlay .popup-wrapper h6 {
+        color: rgba(59, 30, 119, 0.7); }
+      .JSLicense .popup.overlay .popup-wrapper h3 {
+        font-size: 1rem; }
+      .JSLicense .popup.overlay .popup-wrapper h4 {
+        font-size: 0.85rem; }
+      .JSLicense .popup.overlay .popup-wrapper input[type=text] {
+        height: 60px;
+        line-height: 60px;
+        padding: 0 10px;
+        text-align: center;
+        font-size: 1.5em;
+        border: none;
+        background: rgba(59, 30, 119, 0.7);
+        color: #fff; }
+        .JSLicense .popup.overlay .popup-wrapper input[type=text]:focus {
+          background: rgba(59, 30, 119, 0.8); }
+        .JSLicense .popup.overlay .popup-wrapper input[type=text]::-webkit-input-placeholder {
+          color: rgba(255, 255, 255, 0.35) !important;
+          font-style: italic; }
+        .JSLicense .popup.overlay .popup-wrapper input[type=text]:-moz-placeholder {
+          color: rgba(255, 255, 255, 0.35) !important;
+          font-style: italic; }
+        .JSLicense .popup.overlay .popup-wrapper input[type=text]::-moz-placeholder {
+          color: rgba(255, 255, 255, 0.35) !important;
+          font-style: italic; }
+        .JSLicense .popup.overlay .popup-wrapper input[type=text]:-ms-input-placeholder {
+          color: rgba(255, 255, 255, 0.35) !important;
+          font-style: italic; }
+    .JSLicense .popup .popup-wrapper {
+      position: relative;
+      width: 60%;
+      left: 20%;
+      padding: 15px; }
+      .JSLicense .popup .popup-wrapper h1, .JSLicense .popup .popup-wrapper h2, .JSLicense .popup .popup-wrapper h3, .JSLicense .popup .popup-wrapper h4, .JSLicense .popup .popup-wrapper h5, .JSLicense .popup .popup-wrapper h6 {
+        border: none;
+        padding: 0;
+        margin: 0; }
+      .JSLicense .popup .popup-wrapper .popup-icon {
+        display: block; }
+        .JSLicense .popup .popup-wrapper .popup-icon .fa {
+          font-size: 15em;
+          text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.15); }
+      .JSLicense .popup .popup-wrapper .popup-msg {
+        display: block;
+        margin: 10px 0 10px 0;
+        word-wrap: break-word;
+        word-break: break-all; }
+      .JSLicense .popup .popup-wrapper .input-group-btn .btn {
+        height: 60px;
+        line-height: 70px;
+        margin: 0;
+        padding: 0 15px; }
+      .JSLicense .popup .popup-wrapper .input-group-btn .fa {
+        font-size: 2em; }
+      .JSLicense .popup .popup-wrapper .alert {
+        margin: 15px 0 0;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        -ms-border-radius: 0;
+        border-radius: 0; }
+      .JSLicense .popup .popup-wrapper .btn-group {
+        margin-top: 15px; }
+        .JSLicense .popup .popup-wrapper .btn-group .btn {
+          margin: 0; }
+        .JSLicense .popup .popup-wrapper .btn-group.more-space-top {
+          margin-top: 30px; }
+        .JSLicense .popup .popup-wrapper .btn-group.no-spacing {
+          margin: 0; }
+      .JSLicense .popup .popup-wrapper .btn {
+        border: none;
+        margin: 15px 0 0 0;
+        padding: 10px 15px; }
+        .JSLicense .popup .popup-wrapper .btn.active {
+          background: rgba(59, 30, 119, 0.8); }
+      .JSLicense .popup .popup-wrapper .progress-bar {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 0;
+        height: 2px;
+        -webkit-transition: width 3000ms ease-out;
+        -moz-transition: width 3000ms ease-out;
+        -o-transition: width 3000ms ease-out;
+        transition: width 3000ms ease-out;
+        -webkit-transition-delay: 0;
+        -moz-transition-delay: 0;
+        -o-transition-delay: 0;
+        transition-delay: 0; }
+      .JSLicense .popup .popup-wrapper .close-action {
+        position: absolute;
+        background-color: transparent;
+        color: rgba(59, 30, 119, 0.7);
+        border: none;
+        top: -70px;
+        right: -70px;
+        padding: 0;
+        margin: 0;
+        width: 70px;
+        height: 70px;
+        line-height: 70px; }
+        .JSLicense .popup .popup-wrapper .close-action:hover {
+          background-color: rgba(59, 30, 119, 0.7);
+          color: #fff; }
+    .JSLicense .popup.success .popup-wrapper .popup-icon {
+      color: #27ae60; }
+    .JSLicense .popup.success .popup-wrapper h1, .JSLicense .popup.success .popup-wrapper h2, .JSLicense .popup.success .popup-wrapper h3, .JSLicense .popup.success .popup-wrapper h4, .JSLicense .popup.success .popup-wrapper h5, .JSLicense .popup.success .popup-wrapper h6 {
+      color: #27ae60; }
+    .JSLicense .popup.success .popup-wrapper .btn {
+      background: #27ae60; }
+      .JSLicense .popup.success .popup-wrapper .btn.close-action {
+        background: none; }
+        .JSLicense .popup.success .popup-wrapper .btn.close-action:hover {
+          background-color: #27ae60; }
+      .JSLicense .popup.success .popup-wrapper .btn:hover {
+        background-color: #5cb85c; }
+    .JSLicense .popup.success .popup-wrapper .progress-bar {
+      background: #27ae60; }
+    .JSLicense .popup.success .popup-wrapper .pnl-owner-info {
+      background: #27ae60; }
+    .JSLicense .popup.success .popup-wrapper .close-action {
+      color: #27ae60; }
+      .JSLicense .popup.success .popup-wrapper .close-action:hover {
+        color: #fff;
+        background-color: #27ae60; }
+    .JSLicense .popup.warning .popup-wrapper .popup-icon {
+      color: #d9534f; }
+    .JSLicense .popup.warning .popup-wrapper h1, .JSLicense .popup.warning .popup-wrapper h2, .JSLicense .popup.warning .popup-wrapper h3, .JSLicense .popup.warning .popup-wrapper h4, .JSLicense .popup.warning .popup-wrapper h5, .JSLicense .popup.warning .popup-wrapper h6 {
+      color: #d9534f; }
+    .JSLicense .popup.warning .popup-wrapper .btn {
+      background: #d9534f; }
+      .JSLicense .popup.warning .popup-wrapper .btn.close-action {
+        background: none; }
+        .JSLicense .popup.warning .popup-wrapper .btn.close-action:hover {
+          background-color: #d9534f; }
+      .JSLicense .popup.warning .popup-wrapper .btn:hover {
+        background-color: #c9302c; }
+    .JSLicense .popup.warning .popup-wrapper .pnl-owner-info {
+      background: #d9534f; }
+    .JSLicense .popup.warning .popup-wrapper .progress-bar {
+      background: #d9534f; }
+    .JSLicense .popup.warning .popup-wrapper .input-group-addon {
+      background: #d9534f; }
+    .JSLicense .popup.warning .popup-wrapper input[type=text] {
+      background: #d9534f; }
+      .JSLicense .popup.warning .popup-wrapper input[type=text]:focus {
+        background: #c9302c; }
+    .JSLicense .popup.warning .popup-wrapper .pnl-owner-info {
+      background: #d9534f; }
+    .JSLicense .popup.warning .popup-wrapper .close-action {
+      color: #d9534f;
+      background-color: none; }
+      .JSLicense .popup.warning .popup-wrapper .close-action:hover {
+        color: #fff;
+        background-color: #d9534f; }
+  .JSLicense .pnl-admin .btn.btn-primary {
+    background-color: rgba(0, 0, 0, 0.5); }
+    .JSLicense .pnl-admin .btn.btn-primary:hover, .JSLicense .pnl-admin .btn.btn-primary:focus, .JSLicense .pnl-admin .btn.btn-primary:active, .JSLicense .pnl-admin .btn.btn-primary.active {
+      background-color: rgba(0, 0, 0, 0.8); }
+  .JSLicense .pnl-admin .content-holder {
+    float: left;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px 15px; }
+    .JSLicense .pnl-admin .content-holder.success {
+      background-color: #5cb85c; }
+    .JSLicense .pnl-admin .content-holder.warning {
+      background-color: #d9534f; }
+  .JSLicense .scroll-action {
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    display: none;
+    z-index: 9999; }
+    .JSLicense .scroll-action.btn {
+      padding: 0;
+      width: 50px;
+      height: 50px;
+      line-height: 50px;
+      border-color: transparent;
+      -webkit-border-radius: 0;
+      -moz-border-radius: 0;
+      -ms-border-radius: 0;
+      border-radius: 0;
+      -webkit-transition: background-color 300ms ease-out;
+      -moz-transition: background-color 300ms ease-out;
+      -o-transition: background-color 300ms ease-out;
+      transition: background-color 300ms ease-out; }
+      .JSLicense .scroll-action.btn.btn-primary {
+        background-color: rgba(59, 30, 119, 0.7);
+        border-color: transparent; }
+        .JSLicense .scroll-action.btn.btn-primary:hover {
+          background-color: rgba(59, 30, 119, 0.8);
+          border-color: transparent; }
+      .JSLicense .scroll-action.btn:hover {
+        border-color: transparent; }
+      .JSLicense .scroll-action.btn:active {
+        -moz-box-shadow: none;
+        -webkit-box-shadow: none;
+        -o-box-shadow: none;
+        box-shadow: none; }
+  .JSLicense .btn {
+    line-height: normal;
+    border: none;
+    padding: 10px 15px;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    border-radius: 0;
+    -webkit-transition: all 300ms ease-out;
+    -moz-transition: all 300ms ease-out;
+    -o-transition: all 300ms ease-out;
+    transition: all 300ms ease-out; }
+    .JSLicense .btn.btn-primary {
+      background-color: rgba(59, 30, 119, 0.7);
+      color: #fff; }
+      .JSLicense .btn.btn-primary:hover, .JSLicense .btn.btn-primary:active, .JSLicense .btn.btn-primary.active {
+        background-color: rgba(59, 30, 119, 0.8);
+        text-decoration: none; }
+      .JSLicense .btn.btn-primary:focus {
+        background-color: rgba(59, 30, 119, 0.7); }
+        .JSLicense .btn.btn-primary:focus:hover {
+          background-color: rgba(59, 30, 119, 0.8); }
+    .JSLicense .btn.btn-default {
+      color: rgba(59, 30, 119, 0.7);
+      background: rgba(59, 30, 119, 0.15); }
+      .JSLicense .btn.btn-default:hover, .JSLicense .btn.btn-default:focus, .JSLicense .btn.btn-default:active {
+        color: #fff;
+        background-color: rgba(59, 30, 119, 0.7); }
+    .JSLicense .btn:hover, .JSLicense .btn:focus, .JSLicense .btn:active {
+      border: none;
+      outline: none;
+      -moz-box-shadow: none;
+      -webkit-box-shadow: none;
+      -o-box-shadow: none;
+      box-shadow: none; }
+    .JSLicense .btn[disabled=disabled], .JSLicense .btn.aspNetDisabled, .JSLicense .btn.dnnDisabled {
+      color: rgba(255, 255, 255, 0.5); }
+      .JSLicense .btn[disabled=disabled]:hover, .JSLicense .btn.aspNetDisabled:hover, .JSLicense .btn.dnnDisabled:hover {
+        background-color: rgba(59, 30, 119, 0.7); }
+    .JSLicense .btn.custom-acc-ctrl {
+      display: block; }
+  .JSLicense .btn-group.form-control {
+    width: 50%;
+    max-width: 450px; }
+  .JSLicense .btn-group:focus {
+    outline: none;
+    border: none; }
+  .JSLicense .btn-group .btn + .btn,
+  .JSLicense .btn-group .btn + .btn-group,
+  .JSLicense .btn-group .btn-group + .btn,
+  .JSLicense .btn-group .btn-group + .btn-group {
+    margin-left: 0; }
+    .JSLicense .btn-group .btn + .btn:focus,
+    .JSLicense .btn-group .btn + .btn-group:focus,
+    .JSLicense .btn-group .btn-group + .btn:focus,
+    .JSLicense .btn-group .btn-group + .btn-group:focus {
+      outline: none;
+      border: none; }
+  .JSLicense .group {
+    zoom: 1; }
+  .JSLicense .no-spacing {
+    margin: 0;
+    padding: 0; }
+  .JSLicense .view .pnl-admin {
+    text-align: right;
+    float: right; }
+    .JSLicense .view .pnl-admin .form-control {
+      width: 25%;
+      height: 39px;
+      line-height: normal;
+      float: left;
+      -moz-box-shadow: none;
+      -webkit-box-shadow: none;
+      -o-box-shadow: none;
+      box-shadow: none;
+      -webkit-border-radius: 0;
+      -moz-border-radius: 0;
+      -ms-border-radius: 0;
+      border-radius: 0; }
+    .JSLicense .view .pnl-admin strong {
+      color: #fff; }
+  .JSLicense ::-webkit-input-placeholder {
+    color: rgba(59, 30, 119, 0.25);
+    font-style: italic; }
+  .JSLicense :-moz-placeholder {
+    color: rgba(59, 30, 119, 0.25);
+    font-style: italic; }
+  .JSLicense ::-moz-placeholder {
+    color: rgba(59, 30, 119, 0.25);
+    font-style: italic; }
+  .JSLicense :-ms-input-placeholder {
+    color: rgba(59, 30, 119, 0.25);
+    font-style: italic; }
+
+.mark, mark {
+  padding: 0 !important;
+  background-color: transparent !important; }
+
+.dnnDropDownList .selected-item {
+  margin: 0 0 0 15px !important; }
+  .dnnDropDownList .selected-item a {
+    height: auto !important; }
+    .dnnDropDownList .selected-item a:link, .dnnDropDownList .selected-item a:visited, .dnnDropDownList .selected-item a:hover, .dnnDropDownList .selected-item a:active {
+      height: auto !important; }
+
+.dnnPermissionsGrid > .dnnFormItem ul.token-input-list-facebook {
+  /*padding: 8px !important;*/ }
+
+.dnnPermissionsGrid > .dnnFormItem li.token-input-token-facebook {
+  margin: 3px !important;
+  padding: 3px 5px !important; }
+
+.dnnPermissionsGrid > .dnnFormItem li.token-input-input-token-facebook {
+  margin: 4px 0 !important;
+  padding: 4px 0 !important; }
+
