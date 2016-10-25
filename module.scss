@@ -1233,7 +1233,11 @@
 
             .popup-msg {
                 display: block;
-                margin: 10px 0 10px 0;
+                padding: 10px 15px;
+                margin-top: 10px;
+                background: $dark-alpha-lg;
+                color: $white;
+                text-align: left;
                 word-wrap: break-word;
                 word-break: break-all;
             }
@@ -1356,6 +1360,10 @@
                         background-color: $success;
                     }
                 }
+
+                .popup-msg {
+                    background: $success;
+                }
             }
         }
 
@@ -1418,6 +1426,10 @@
                         color: $white;
                         background-color: $warning;
                     }
+                }
+
+                .popup-msg {
+                    background: $warning;
                 }
             }
         }
@@ -1551,6 +1563,11 @@
         &.custom-acc-ctrl {
             display: block;
         }
+
+        &.btn-xlg {
+            padding: 20px 70px;
+            font-size: 1.5em;
+        }
     }
     /*BOOTSTRAP RE-STYLING */
     .btn-group {
@@ -1604,6 +1621,17 @@
             strong {
                 color: $white;
             }
+        }
+
+        .pnl-first,
+        .pnl-purchased {
+            float: left;
+            width: 100%;
+        }
+
+        .pnl-first {
+            margin: 40px auto 20px;
+            text-align: center;
         }
     }
 

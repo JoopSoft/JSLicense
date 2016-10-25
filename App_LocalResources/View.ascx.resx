@@ -120,12 +120,6 @@
   <data name="BasicSettings.Text" xml:space="preserve">
     <value>Basic JSLicense Settings</value>
   </data>
-  <data name="btnActivateModule.Text" xml:space="preserve">
-    <value>Activate</value>
-  </data>
-  <data name="btnGenConfirmKey.Text" xml:space="preserve">
-    <value>Genarate</value>
-  </data>
   <data name="EditModule.Text" xml:space="preserve">
     <value>Add Item</value>
   </data>
@@ -158,5 +152,8 @@
   </data>
   <data name="thStatus.Text" xml:space="preserve">
     <value>Current Status</value>
+  </data>
+  <data name="lnkGenConfirmKey.Text" xml:space="preserve">
+    <value>Generate Key</value>
   </data>
 </root>

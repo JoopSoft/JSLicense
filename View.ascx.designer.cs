@@ -31,24 +31,6 @@ namespace JS.Modules.JSLicense {
         protected global::DotNetNuke.Web.Client.ClientResourceManagement.DnnCssInclude fontAwesomeCss;
         
         /// <summary>
-        /// pnlFirstButton control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel pnlFirstButton;
-        
-        /// <summary>
-        /// lnkFirstButton control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton lnkFirstButton;
-        
-        /// <summary>
         /// pnlAdmin control.
         /// </summary>
         /// <remarks>
@@ -101,6 +83,42 @@ namespace JS.Modules.JSLicense {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.HyperLink lnkSettings;
+        
+        /// <summary>
+        /// pnlFirstButton control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Panel pnlFirstButton;
+        
+        /// <summary>
+        /// blGuid control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.BulletedList blGuid;
+        
+        /// <summary>
+        /// lnkFirstButton control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton lnkFirstButton;
+        
+        /// <summary>
+        /// pnlPurchasedModules control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Panel pnlPurchasedModules;
         
         /// <summary>
         /// lblTableTitle control.
@@ -409,24 +427,6 @@ namespace JS.Modules.JSLicense {
         protected global::System.Web.UI.WebControls.Panel pnlButtonGroups;
         
         /// <summary>
-        /// btnGenConfirmKey control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton btnGenConfirmKey;
-        
-        /// <summary>
-        /// btnActivateModule control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton btnActivateModule;
-        
-        /// <summary>
         /// lnkOwnerInfo control.
         /// </summary>
         /// <remarks>
@@ -434,6 +434,24 @@ namespace JS.Modules.JSLicense {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.HyperLink lnkOwnerInfo;
+        
+        /// <summary>
+        /// pnlGenConfirmKey control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Panel pnlGenConfirmKey;
+        
+        /// <summary>
+        /// lnkGenConfirmKey control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.HyperLink lnkGenConfirmKey;
         
         /// <summary>
         /// pnlOwnerInfo control.

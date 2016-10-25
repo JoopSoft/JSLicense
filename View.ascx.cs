@@ -136,6 +136,8 @@ namespace JS.Modules.JSLicense
             pnlOwnerInfo.CssClass = "pnl-owner-info collapse";
             lnkSubmit.CssClass = "btn btn-primary link-key no-txt";
             lnkSubmit.ToolTip = "Generate Confirmation Key";
+            pnlGenConfirmKey.Visible = false;
+
         }
 
         protected void btnClose_Click(object sender, EventArgs e)
@@ -155,6 +157,8 @@ namespace JS.Modules.JSLicense
             pnlButtonGroups.Visible = false;
             pnlOwnerInfo.Visible = true;
             pnlOwnerInfo.CssClass = "pnl-owner-info";
+            pnlGenConfirmKey.Visible = false;
+
         }
 
         protected void lnkCheckLicenseKey_Click(object sender, EventArgs e)
@@ -172,6 +176,8 @@ namespace JS.Modules.JSLicense
             lblKey.Text = "<strong>Confirmation Key</strong>";
             lnkSubmit.CssClass = "btn btn-primary link-lock no-txt";
             lnkSubmit.ToolTip = "Activate Module";
+            pnlGenConfirmKey.Visible = true;
+            pnlGenConfirmKey.CssClass = "";
         }
 
         public ModuleActionCollection ModuleActions

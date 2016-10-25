@@ -9,11 +9,6 @@
 <div class="JSLicense">
     <div class="view">  
 
-        <%--FIRST CONTROLS--%>
-        <asp:Panel ID="pnlFirstButton" runat="server" CssClass="btn-group">
-            <asp:LinkButton ID="lnkFirstButton" runat="server" CssClass="btn btn-primary link-lock"
-                ResourceKey="lnkFirstButton" OnClick="lnkFirstButton_Click" />
-        </asp:Panel>
 
         <%--EDIT MODE GROUP BUTTONS--%>
         <asp:Panel ID="pnlAdmin" runat="server" Visible="true" CssClass="pnl-admin">
@@ -32,7 +27,24 @@
             </div>
         </asp:Panel>
 
-        <div>
+        <%--FIRST CONTROLS--%>
+        <asp:Panel ID="pnlFirstButton" runat="server" CssClass="pnl-first">
+
+
+            <h3 style="text-align: left;">To activate your module, please follow:</h3>
+            <asp:BulletedList ID="blGuid" runat="server" 
+                style="text-align: left; margin-bottom: 30px; ">                
+                <asp:ListItem Text="Click on Activate your module button." />
+                <asp:ListItem Text="Generate your confirmation code (Use your Installed module key)." />
+                <asp:ListItem Text="Copy and Paste confirmation code to your activation form." />
+                <asp:ListItem Text="Press Activate your module button." />
+            </asp:BulletedList>
+
+            <asp:LinkButton ID="lnkFirstButton" runat="server" CssClass="btn btn-primary btn-xlg link-lock"
+                ResourceKey="lnkFirstButton" OnClick="lnkFirstButton_Click" />
+        </asp:Panel>
+
+        <asp:Panel ID="pnlPurchasedModules" runat="server" CssClass="pnl-purchased">
             <h3>
                 <asp:Label ID="lblTableTitle" runat="server" ResourceKey="lblTableTitle" />
             </h3>
@@ -86,7 +98,7 @@
                             <asp:Label ID="txtStatus" runat="server" CssClass="ellipsis group link-unlock alert-success"
                                 Text='Activated' />
                             <asp:HyperLink ID="lnkGetConfirmKey" runat="server" CssClass="btn btn-success link-key no-txt"
-                                data-toggle="tooltip" ToolTip="Get Confirmation Key" resourceKey="lnkGetConfirmKey" />
+                                data-toggle="tooltip" ToolTip="Confirmation Key" resourceKey="lnkGetConfirmKey" />
                         </asp:TableCell>
                     </asp:TableRow>
 
@@ -191,7 +203,7 @@
                     </asp:Repeater>
                 </tbody>
             </table>
-        </div>
+        </asp:Panel>
 
         <%--POPUP--%>
         <asp:Panel ID="pnlPopUp" runat="server" Visible="false" CssClass="popup overlay">
@@ -205,8 +217,7 @@
                     <asp:Label ID="lblKey" runat="server" CssClass="input-group-addon"
                         ClientIDMode="Static" />
                     <asp:TextBox ID="txtKey" runat="server" CssClass="form-control" Enabled="true"
-                        aria-describedby="lblKey"
-                        Placeholder="Enter Installed Key" />
+                        aria-describedby="lblKey" />
                     <span class="input-group-btn">
                         <asp:HyperLink ID="lnkSubmit" runat="server" CssClass="btn btn-primary link-key no-txt"
                             data-toggle="tooltip" />
@@ -222,17 +233,16 @@
                 </asp:Panel>
 
                 <asp:Panel ID="pnlButtonGroups" runat="server" CssClass="btn-group" role="group" aria-label="Control buttons">
-                    <asp:LinkButton ID="btnGenConfirmKey" runat="server" CssClass="btn btn-primary link-key"
-                        ResourceKey="btnGenConfirmKey"
-                        data-toggle="tooltip" ToolTip="Generate Confirm Key" />
-
-                    <asp:LinkButton ID="btnActivateModule" runat="server" CssClass="btn btn-primary link-lock"
-                        ResourceKey="btnActivateModule"
-                        data-toggle="tooltip" ToolTip="Activate Module" />
-
                     <asp:HyperLink ID="lnkOwnerInfo" runat="server" CssClass="btn btn-primary link-info"
                         href="#pnlOwnerInfo" aria-expanded="false" ResourceKey="lnkOwnerInfo"
-                        data-toggle="collapse" data-toggle-tooltip="tooltip" ToolTip="Owner Info" />
+                        data-toggle="collapse" data-toggle-tooltip="tooltip" ToolTip="Owner Info"
+                        Visible="false" />
+                </asp:Panel>
+
+                <asp:Panel ID="pnlGenConfirmKey" runat="server" >
+                    <asp:HyperLink ID="lnkGenConfirmKey" runat="server" CssClass="btn btn-primary link-key"
+                        ResourceKey="lnkGenConfirmKey" 
+                        data-toggle="tooltip" ToolTip="Generate Confirmation Key" NavigateUrl="http://dnndev.me/DNN-Modules-DAL2/License" />
                 </asp:Panel>
 
                 <asp:Panel ID="pnlOwnerInfo" runat="server" ClientIDMode="Static">
@@ -260,6 +270,8 @@
         $('.JSLicense #<%= lnkOwnerInfo.ClientID %>').bind('click', function () {
             $(this).toggleClass('active');
         });
+
+
 
     })(jQuery, window.Sys);
 

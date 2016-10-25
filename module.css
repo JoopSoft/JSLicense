@@ -950,7 +950,11 @@
           text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.15); }
       .JSLicense .popup .popup-wrapper .popup-msg {
         display: block;
-        margin: 10px 0 10px 0;
+        padding: 10px 15px;
+        margin-top: 10px;
+        background: rgba(59, 30, 119, 0.7);
+        color: #fff;
+        text-align: left;
         word-wrap: break-word;
         word-break: break-all; }
       .JSLicense .popup .popup-wrapper .input-group-btn .btn {
@@ -1030,6 +1034,8 @@
       .JSLicense .popup.success .popup-wrapper .close-action:hover {
         color: #fff;
         background-color: #27ae60; }
+    .JSLicense .popup.success .popup-wrapper .popup-msg {
+      background: #27ae60; }
     .JSLicense .popup.warning .popup-wrapper .popup-icon {
       color: #d9534f; }
     .JSLicense .popup.warning .popup-wrapper h1, .JSLicense .popup.warning .popup-wrapper h2, .JSLicense .popup.warning .popup-wrapper h3, .JSLicense .popup.warning .popup-wrapper h4, .JSLicense .popup.warning .popup-wrapper h5, .JSLicense .popup.warning .popup-wrapper h6 {
@@ -1060,6 +1066,8 @@
       .JSLicense .popup.warning .popup-wrapper .close-action:hover {
         color: #fff;
         background-color: #d9534f; }
+    .JSLicense .popup.warning .popup-wrapper .popup-msg {
+      background: #d9534f; }
   .JSLicense .pnl-admin .btn.btn-primary {
     background-color: rgba(0, 0, 0, 0.5); }
     .JSLicense .pnl-admin .btn.btn-primary:hover, .JSLicense .pnl-admin .btn.btn-primary:focus, .JSLicense .pnl-admin .btn.btn-primary:active, .JSLicense .pnl-admin .btn.btn-primary.active {
@@ -1147,6 +1155,9 @@
         background-color: rgba(59, 30, 119, 0.7); }
     .JSLicense .btn.custom-acc-ctrl {
       display: block; }
+    .JSLicense .btn.btn-xlg {
+      padding: 20px 70px;
+      font-size: 1.5em; }
   .JSLicense .btn-group.form-control {
     width: 50%;
     max-width: 450px; }
@@ -1187,6 +1198,13 @@
       border-radius: 0; }
     .JSLicense .view .pnl-admin strong {
       color: #fff; }
+  .JSLicense .view .pnl-first,
+  .JSLicense .view .pnl-purchased {
+    float: left;
+    width: 100%; }
+  .JSLicense .view .pnl-first {
+    margin: 40px auto 20px;
+    text-align: center; }
   .JSLicense ::-webkit-input-placeholder {
     color: rgba(59, 30, 119, 0.25);
     font-style: italic; }
